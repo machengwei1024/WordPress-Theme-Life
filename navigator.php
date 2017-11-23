@@ -1,0 +1,1 @@
+<?php lingfeng_pagenavi();?>

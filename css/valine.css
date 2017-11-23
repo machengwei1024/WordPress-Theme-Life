@@ -1,0 +1,184 @@
+.vcontrol {
+	background: #fdfdfd;
+	font-size: 0;
+	display: flex;
+}
+
+.vcontrol .vident {
+	font-size: 14px;
+	width: 100%;
+	display: flex;
+	padding: 5px 0;
+	vertical-align: middle
+}
+
+.vcontrol .vident .vinput {
+	margin-right: 8px;
+	background: #fafdff;
+	border: .06em solid #edf4f8;
+	color: #718c98;
+}
+
+.vcontrol .vident .vinput:focus {
+	border-color: #c3e5ff;
+	outline: 0;
+}
+
+.vcontrol .vident .vinput {
+}
+
+.vcontrol .vright {
+	font-size: 14px;
+	padding: 5px 0;
+	display: inline-block;
+	width: 15%;
+	text-align: right;
+	vertical-align: middle;
+}
+
+@media screen and (max-width:520px) {
+.vcontrol .vident {
+		width: 70%;
+	}
+
+.vcontrol .vident .vinput {
+		width: 80%;
+	}
+
+.vcontrol .vright {
+		width: 30%;
+	}
+}
+
+.vcontrol input {
+	background: transparent;
+}
+
+.vmark {
+	position: absolute;
+	background: rgba(0,0,0,0.65);
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+.vmark .valert {
+	padding: 15px 0;
+}
+
+.vmark .valert .vtext {
+	color: #fff;
+	padding: 15px;
+	font-size: 1rem;
+}
+
+.vmark .valert .vcode {
+	background: none;
+	border: 0;
+	border-bottom: 1px solid #edf4f8;
+}
+
+.vmark .valert .vcode:focus {
+	border-color: #c3e5ff;
+}
+
+@media screen and (max-width:720px) {
+.vmark .valert {
+		padding: 30px 0;
+	}
+
+.vmark .valert .vtext {
+		color: #fff;
+		padding: 10px;
+	}
+}
+
+.vbtns {
+	display: flex;
+	padding: 0 10px;
+}
+
+.vbtns>button {
+}
+.veditor {
+	width: 100%;
+	height: 150px;
+	background: url(../images/textbg.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: #fafdff;
+	resize: none;
+	outline: none;
+	padding: 5px;
+	max-width: 100%;
+	border: .06em solid #edf4f8;
+	border-radius: 4px;
+	color: #718c98;
+	font-size: .9rem;
+	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+}
+
+.veditor:focus,.vwrap .vcontrol .vident .vinput:focus {
+	border-color: #c3e5ff;
+	outline: 0;
+}
+.vcontrol .vright {
+	font-size: 14px;
+	padding: 5px 0;
+	display: inline-block;
+	width: 15%;
+	text-align: right;
+	vertical-align: middle;
+}
+
+@media screen and (max-width:520px) {
+.vcontrol .vident {
+		width: 70%;
+	}
+
+.vcontrol .vident .vinput {
+		width: 80%;
+	}
+
+.vcontrol .vright {
+		width: 30%;
+	}
+}
+.vbtn {
+	display: inline-block;
+	background: #33b1ff;
+	border: .06em solid #edf4f8;
+	margin-bottom: 0;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 12px 10px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	outline: none;
+	min-width: 60px;
+	max-width: 100%;
+	width: 100%;
+	color: #fff;
+}
+/*.vbtn:active,.vbtn:hover {
+	color: #3090e4;
+	border-color: #c3e5ff;
+	background-color: #fff
+}*/
